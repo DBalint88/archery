@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  height: 2rem;
+  background-color: #03a3df;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  color: white;
+  float: left;
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+header {
+  margin-top: 0px;
+  background-color: #03a3df;
+  height: 7rem;
+  display: flex;
+}
+
+header img {
+  float: left;
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+footer img {
+  float: left;
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+h1 {
+  color: white;
+}
+
+.home-page {
+  height: 38rem;
+}
+
+footer {
+  background-color: #03a3df;
+  height: 8rem;
+}
+
+footer p {
+  float: left;
+}
+
+img.bio-pic {
+  float: left;
+}
+
+section.bio-article {
+  margin-bottom: 5rem;
+}
