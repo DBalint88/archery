@@ -13,11 +13,13 @@ header {
   grid-column: span 10;
   background-color: #03a3df;
   display: flex;
+  justify-content: space-between;
 }
 
 header img {
   height: 100px;
   align-self: center;
+  margin-left: 3rem;
 }
 
 h1 {
@@ -27,8 +29,10 @@ h1 {
   font: arial;
 }
 
+
 nav ul {
  display: flex;
+ margin-right: 2rem;
 }
 
 nav ul li {
@@ -69,4 +73,29 @@ footer p {
   margin-left: 3rem;
   color: white;
   width: 25%
+}
+
+.staff-bios {
+  margin-top: 2rem;
+  grid-column: span 10;
+  display: inline-flex;
+  justify-content: space-between;
+  color: #03a3df;
+}
+
+
+.staff-bios p {
+  font-size: 1.3rem;
+}
+
+hr {
+  height: 1px;
+  background-color: #03a3df;
+  border: none;
+  width: 80%;
+  margin: 0px;
+}
+
+.bio-card {
+  width: 20%;
 }
