@@ -77,9 +77,10 @@ footer p {
 .staff-bios {
   margin-top: 2rem;
   grid-column: span 10;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   color: #03a3df;
+  flex-wrap: wrap;
 }
 
 
@@ -97,4 +98,7 @@ hr {
 
 .bio-card {
   width: 20%;
+  display: inline;
+  min-width: 15rem;
+  margin-right: 1rem;
 }
